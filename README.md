@@ -3,6 +3,8 @@ By Paarth Trehan
 
 This project leverages the Wisconsin Breast Cancer Diagnostic Dataset to develop and compare several tree-based classification models for predicting whether a tumor is malignant or benign. The goal is to explore predictive modeling techniques and identify the most effective features and algorithms for accurate diagnosis.
 
+
+
 Dataset Overview
 Each data record corresponds to a fine needle aspirate (FNA) of a breast mass. The dataset includes:
 
@@ -26,7 +28,9 @@ Standard error (SE)
 
 Worst value (mean of 3 largest)
 
-🛠️ Methodology
+
+
+Methodology
 The project workflow included the following steps:
 
 Data Loading & Cleaning
@@ -43,6 +47,8 @@ Visualized distributions of features by diagnosis type
 
 Identified key indicators of malignancy (e.g., high radius, area, concavity)
 
+
+
 Model Building & Evaluation
 Implemented and tested multiple classification models:
 
@@ -58,6 +64,8 @@ Evaluation metrics included:
 Prediction accuracy on training and test sets
 
 5-fold cross-validation scores
+
+
 
 Key Findings
 Random Forest consistently delivered the best performance.
@@ -76,6 +84,8 @@ Python, Pandas, NumPy, Matplotlib for data manipulation and visualization
 scikit-learn for model building, evaluation, and cross-validation
 
 Models: LogisticRegression, GaussianNB, DecisionTreeClassifier, RandomForestClassifier
+
+
 
 Conclusion
 The Random Forest model with selected top features was the most accurate and reliable classifier in this analysis. Future work could include:
